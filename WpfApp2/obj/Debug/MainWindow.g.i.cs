@@ -77,6 +77,7 @@ namespace WpfApp2
         }
 
         internal System.Windows.Controls.Button btnClick;
+        internal System.Windows.Controls.TextBox txtName;
     }
 }
 

@@ -27,7 +27,8 @@ namespace WpfApp2
 
         private void BtnClick_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Test");
+            if(txtName.Text =="")
+            MessageBox.Show("Error");
         }
     }
 }
