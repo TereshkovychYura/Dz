@@ -24,5 +24,10 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+
+        private void BtnClick_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
     }
 }
